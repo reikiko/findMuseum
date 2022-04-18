@@ -44,7 +44,7 @@ class AdminCityController extends Controller
             'slug' => 'required|unique:cities',
         ]);
         City::create($validated);
-        return redirect('/dashboard/cities')->with('success', 'New Museum inserted!');
+        return redirect('/dashboard/cities')->with('success', 'New City inserted!');
     }
 
     /**

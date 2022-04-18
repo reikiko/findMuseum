@@ -27,9 +27,10 @@ class DashboardMuseumController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Museum $museum)
     {
         return view('dashboard.museums.create',[
+            'museum' => $museum,
             'cities' => City::all(),
         ]);
     }
