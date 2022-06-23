@@ -20,7 +20,7 @@
         </div>
       @endif
       @if (session()->has('loginError'))
-        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <div class="alert alert-danger" role="alert">
           {{ session('loginError') }}
         </div>
       @endif

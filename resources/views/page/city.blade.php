@@ -34,6 +34,6 @@
         @endforeach
       </div>
     @else
-      <p class="text-center fs-5 text-muted">No museum found</p>
+      <p class="text-center fs-5 text-muted" style="margin-bottom:25%">No museum found</p>
     @endif
 @endsection
